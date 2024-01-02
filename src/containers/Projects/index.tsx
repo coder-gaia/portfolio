@@ -1,4 +1,4 @@
-import Project from '../../components/Projects'
+import Project from '../../components/Project'
 import Title from '../../components/Title'
 import { List } from './styles'
 
@@ -6,6 +6,18 @@ const Projects = () => (
   <section>
     <Title fontSize={16}>Projects</Title>
     <List>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
       <li>
         <Project />
       </li>
